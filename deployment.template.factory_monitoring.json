@@ -10,12 +10,12 @@
               "minDockerVersion": "v1.25",
               "loggingOptions": "",
               "registryCredentials": {
-                "my_acr_1": {
+                "my_acr1": {
                   "username": "${ACR_USER_1}",
                   "password": "${ACR_PASSWORD_1}",
                   "address": "${ACR_ADDRESS_1}"
                 },
-                "my_acr_2": {
+                "my_acr2": {
                     "username": "${ACR_USER_2}",
                     "password": "${ACR_PASSWORD_2}",
                     "address": "${ACR_ADDRESS_2}"
