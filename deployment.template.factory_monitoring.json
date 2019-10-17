@@ -79,7 +79,9 @@
               "restartPolicy": "always",
               "settings": {
                 "image": "${ACR_ADDRESS_1}/humidityfiltermodule:0.0.408-amd64",
-                "createOptions": {}
+                "createOptions": {
+                    "threshold": 25
+                }
               }
             },
             "TemperatureFilterModule": {
@@ -89,7 +91,9 @@
                 "restartPolicy": "always",
                 "settings": {
                   "image": "${ACR_ADDRESS_2}/temperaturefiltermodule:0.0.409-amd64",
-                  "createOptions": {}
+                  "createOptions": {
+                    "threshold": 25
+                  }
                 }
               }
           }
